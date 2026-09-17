@@ -6,7 +6,6 @@ import com.ute.studentprofile.model.Student
 import com.ute.studentprofile.utils.toAcademicRanking
 import com.ute.studentprofile.utils.toast
 class MainActivity : AppCompatActivity() {
-
     private lateinit var binding: ActivityMainBinding
     private var currentStudent = Student(
         id = "2415053122315",
